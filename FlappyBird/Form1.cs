@@ -75,13 +75,13 @@ namespace FlappyBird
             }
 
             
-            if(wall1.x == bird.x - 70)
+            if(wall1.x == bird.x - 50)
             {
                 Inscore += 1;
                 label1.Text = "Score: " + Inscore;
 
             }
-            if (wall3.x == bird.x - 80)
+            if (wall3.x == bird.x - 70)
             {
                 Inscore += 1;
                 label1.Text = "Score: " + Inscore;
