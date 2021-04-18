@@ -86,12 +86,12 @@ namespace FlappyBird
                 Inscore += 1;
                 label1.Text = "Score: " + Inscore;
             }
-            if (wall5.x == bird.x - 90)
+            if (wall5.x == bird.x - 80)
             {
                 Inscore += 1;
                 label1.Text = "Score: " + Inscore;
             }
-            if (wall7.x == bird.x - 100)
+            if (wall7.x == bird.x - 120)
             {
                 Inscore += 1;
                 label1.Text = "Score: " + Inscore;
